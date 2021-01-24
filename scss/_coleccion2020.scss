@@ -1,0 +1,125 @@
+@media only screen and (mid-width:576px) {
+
+
+    .conteinergrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr auto auto auto;
+        grid-gap: 1rem;
+        grid-template-areas:"grid ."
+                            "grid1 ."
+                            "grid2 grid3"
+                            "grid4 ."
+                            "grid5 ."
+                            "grid6 .";
+    }
+    
+    .grid {
+        grid-area: grid;
+    }
+    
+    .grid1 {
+        grid-area: grid1;
+    }
+    
+    .grid2 {
+        grid-area: grid2;
+    }
+    
+    .grid3 {
+        grid-area: grid3;
+    }
+    
+    .grid4 {
+        grid-area: grid4;
+    }
+    
+    .grid5 {
+        grid-area: grid5;
+    }
+    
+    .grid6 {
+        grid-area: grid6;
+    }
+    }
+    
+    @media (max-width:768px) {
+        .conteinergrid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto 1fr 1fr auto auto auto;
+            grid-gap: 1rem;
+            grid-template-areas:"grid"
+                                "grid1"
+                                "grid2"
+                                "grid3"
+                                "grid4"
+                                "grid5"
+                                "grid6";
+        }
+        
+        .grid {
+            grid-area: grid;
+        }
+        
+        .grid1 {
+            grid-area: grid1;
+        }
+        
+        .grid2 {
+            grid-area: grid2;
+        }
+        
+        .grid3 {
+            grid-area: grid3;
+        }
+        
+        .grid4 {
+            grid-area: grid4;
+        }
+        
+        .grid5 {
+            grid-area: grid5;
+        }
+        
+        .grid6 {
+            grid-area: grid6;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .footer {
+            background-color: rgb(197, 229, 240);
+        }
+    }
+    
+    .column {
+        width: 100%;
+    }
+    
+    // footer
+
+    .footer {
+        background-color: #c5c1ce;
+        text-align: left;
+        padding: 10px;
+        ;
+    }
+    
+    .tituloRedes {
+        color:#cb4ae8;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal ;
+        font-size: 120%;
+    }
+    
+    nav ul li a {
+        color: grey;
+        font-family:'Montserrat', sans-serif;
+        font-style: normal ;
+    }
+    
+    ul{
+        list-style-type: none;
+        background-color: #c5c1ce;
+    }    

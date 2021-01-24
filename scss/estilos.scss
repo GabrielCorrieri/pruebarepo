@@ -1,0 +1,11 @@
+@import "variables";
+@import "inicio";
+@import "contacto";
+@import "coleccion2020";
+@import "nosotros";
+@import "productos";
+@import "each";
+
+@for $i from 1 through 3 {
+    .ejemplo-#{$i} {width: 2em * $i;}
+}

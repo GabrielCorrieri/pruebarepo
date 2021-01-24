@@ -1,0 +1,471 @@
+h1 {
+  color: #4d49a7;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold 700 italic;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h2 {
+  color: #6b2e78;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+p {
+  color: #1c1c21;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 90%;
+}
+
+.btn {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  background-image: -webkit-gradient(linear, right top, left top, from(#f804c3), color-stop(#cb4ae8), color-stop(#9669d1), to(grey));
+  background-image: linear-gradient(to left, #f804c3, #cb4ae8, #9669d1, grey);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.5, 1.5);
+          transform: scale(1.5, 1.5);
+}
+
+.boton {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 100%;
+}
+
+.fotoigual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mitad {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 500px;
+  height: 500px;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+}
+
+.mitad:hover {
+  height: 550px;
+}
+
+.mitad1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 500px;
+  height: 500px;
+  -webkit-transition: height 1s;
+  transition: height 1s;
+}
+
+.mitad1:hover {
+  height: 550px;
+}
+
+.opinion {
+  color: #7977bf;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+.redactar {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.redactar:hover {
+  font-size: 18px;
+  width: 250px;
+}
+
+.footer {
+  background-color: #c5c1ce;
+  text-align: left;
+  padding: 10px;
+}
+
+.tituloRedes {
+  color: #cb4ae8;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 120%;
+}
+
+nav ul li a {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #c5c1ce;
+}
+
+h1 {
+  color: #4d49a7;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold 700 italic;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h2 {
+  color: #6b2e78;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+.formularioContacto {
+  background-color: #c5c1ce;
+  padding: 10px;
+}
+
+.flotante {
+  background-color: hotpink;
+  padding: 10px;
+}
+
+.propiedadesDeLaCaja {
+  background-color: pink;
+  padding: 10px 20px;
+  margin: initial;
+  border: black 1px;
+  float: left;
+  font-size: 30px;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+}
+
+label {
+  color: #10063b;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+input {
+  color: #686767;
+  font-family: 'Montserrat', sans-serif;
+  font-style: thin;
+}
+
+select {
+  color: #10063b;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+.footer {
+  background-color: #c5c1ce;
+  text-align: left;
+  padding: 10px;
+}
+
+.tituloRedes {
+  color: #cb4ae8;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 120%;
+}
+
+nav ul li a {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #c5c1ce;
+}
+
+@media only screen and (mid-width: 576px) {
+  .conteinergrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto 1fr auto auto auto;
+        grid-template-rows: auto auto 1fr auto auto auto;
+    grid-gap: 1rem;
+        grid-template-areas: "grid ." "grid1 ." "grid2 grid3" "grid4 ." "grid5 ." "grid6 .";
+  }
+  .grid {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: grid;
+  }
+  .grid1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: grid1;
+  }
+  .grid2 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: grid2;
+  }
+  .grid3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: grid3;
+  }
+  .grid4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: grid4;
+  }
+  .grid5 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: grid5;
+  }
+  .grid6 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: grid6;
+  }
+}
+
+@media (max-width: 768px) {
+  .conteinergrid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto 1fr 1fr auto auto auto;
+        grid-template-rows: auto auto 1fr 1fr auto auto auto;
+    grid-gap: 1rem;
+        grid-template-areas: "grid" "grid1" "grid2" "grid3" "grid4" "grid5" "grid6";
+  }
+  .grid {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: grid;
+  }
+  .grid1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: grid1;
+  }
+  .grid2 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: grid2;
+  }
+  .grid3 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: grid3;
+  }
+  .grid4 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: grid4;
+  }
+  .grid5 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    grid-area: grid5;
+  }
+  .grid6 {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    grid-area: grid6;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-color: #c5e5f0;
+  }
+}
+
+.column {
+  width: 100%;
+}
+
+.footer {
+  background-color: #c5c1ce;
+  text-align: left;
+  padding: 10px;
+}
+
+.tituloRedes {
+  color: #cb4ae8;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 120%;
+}
+
+nav ul li a {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #c5c1ce;
+}
+
+h1 {
+  color: #4d49a7;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold 700 italic;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.porVos {
+  color: #cb4ae8;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 120%;
+}
+
+h2 {
+  color: #6b2e78;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+p {
+  color: #1c1c21;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 90%;
+}
+
+.footer {
+  background-color: #c5c1ce;
+  text-align: left;
+  padding: 10px;
+}
+
+.tituloRedes {
+  color: #cb4ae8;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 120%;
+}
+
+nav ul li a {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #c5c1ce;
+}
+
+h1 {
+  color: #4d49a7;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold 700 italic;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h3 {
+  color: #6b2c89;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 120%;
+}
+
+table {
+  color: #10063b;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+.Colores {
+  padding: 10%;
+  margin: auto;
+}
+
+ul li {
+  color: #343096;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+ol li {
+  color: #343096;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+.footer {
+  background-color: #c5c1ce;
+  text-align: left;
+  padding: 10px;
+}
+
+.tituloRedes {
+  color: #cb4ae8;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-size: 120%;
+}
+
+nav ul li a {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #c5c1ce;
+}
+
+.button-hotpink {
+  background: hotpink, lightblue, purple;
+}
+
+.button-lightblue {
+  background: hotpink, lightblue, purple;
+}
+
+.button-purple {
+  background: hotpink, lightblue, purple;
+}
+
+.ejemplo-1 {
+  width: 2em;
+}
+
+.ejemplo-2 {
+  width: 4em;
+}
+
+.ejemplo-3 {
+  width: 6em;
+}
+/*# sourceMappingURL=estilos.css.map */
